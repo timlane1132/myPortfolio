@@ -1,0 +1,31 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1.5rem 0 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(13, 13, 26, 0.8);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+.logo {
+  color: var(--primary);
+  padding-left: 3rem;
+}
+
+.nav-links {
+  padding-right: 3rem;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: var(--text);
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--primary);
+}

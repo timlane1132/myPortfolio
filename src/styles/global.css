@@ -1,0 +1,39 @@
+:root {
+  --bg: #0d0d1a;
+  --primary: #6c5ce7;
+  --secondary: #a29bfe;
+  --text: #ffffff;
+  --muted: #b2b2d8;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+section {
+  padding: 80px 10%;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+a,
+button {
+  cursor: pointer;
+}

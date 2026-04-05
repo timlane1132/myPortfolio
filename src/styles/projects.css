@@ -1,0 +1,124 @@
+.projects {
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+/* GRID */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* CARD */
+.project-card {
+  background: #151530;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: left;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Glow border effect */
+.project-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 15px;
+  padding: 1px;
+  background: linear-gradient(45deg, transparent, var(--primary), transparent);
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* Hover lift */
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+/* TEXT */
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+/* LINKS */
+.project-links a {
+  margin-right: 15px;
+  font-size: 0.9rem;
+  color: var(--primary);
+  transition: 0.3s;
+}
+
+.project-links a:hover {
+  color: var(--secondary);
+}
+
+/* IMAGE */
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* TECH TAGS */
+.tech-tags {
+  margin-top: 10px;
+}
+
+.tech-tags span {
+  display: inline-block;
+  background: #1f1f3a;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: var(--secondary);
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #151530;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+}
+
+.modal-content img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.modal-links a {
+  margin: 10px;
+  color: var(--primary);
+}
