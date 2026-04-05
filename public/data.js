@@ -8,8 +8,8 @@ const projectsDone = [
     title: "Movie App",
     description:
       "A movie discovery app with API integration, favorites, and dynamic UI.",
-    live: "#",
-    github: "#",
+    live: "https://movradar.netlify.app/",
+    github: "https://github.com/timlane1132/MovRadar",
     tech: ["React", "API", "JavaScript"],
     image: movieAppImage,
     preview: movieAppPreview,
@@ -18,8 +18,8 @@ const projectsDone = [
     title: "DWELLA",
     description:
       "A real estate platform for seamless property discovery and landlord-tenant interaction.",
-    live: "#",
-    github: "#",
+    live: "https://mydwella.africa/",
+    github: "https://github.com/timlane1132/Dwella",
     tech: ["React", "CSS", "API"],
     image: dwellaImage,
     preview: dwellaPreview,

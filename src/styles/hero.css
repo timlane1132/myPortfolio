@@ -98,4 +98,5 @@
 
 .btn-secondary:hover {
   background: var(--primary);
+  color: white;
 }

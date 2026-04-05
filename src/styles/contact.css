@@ -23,4 +23,13 @@
 
 .contact-links a:hover {
   background: var(--primary);
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
