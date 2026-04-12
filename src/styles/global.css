@@ -127,6 +127,8 @@ button {
     radial-gradient(3px 3px at 150px 250px, #6c5ce7, transparent),
     radial-gradient(3px 3px at 350px 150px, #6c5ce7, transparent),
     radial-gradient(3px 3px at 350px 150px, #6c5ce7, transparent),
+    radial-gradient(10px 10px at 350px 100px, #6c5ce7, transparent),
+    radial-gradient(10px 10px at 250px 100px, #6c5ce7, transparent),
     radial-gradient(10px 10px at 350px 150px, #6c5ce7, transparent);
   animation: moveStars 250s linear infinite;
 }
