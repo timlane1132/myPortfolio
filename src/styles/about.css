@@ -63,10 +63,13 @@
   width: 85%;
 }
 .skill:nth-child(4) span::before {
-  width: 80%;
+  width: 83%;
 }
 .skill:nth-child(5) span::before {
-  width: 75%;
+  width: 90%;
+}
+.skill:nth-child(6) span::before {
+  width: 90%;
 }
 
 @keyframes fillBar {
